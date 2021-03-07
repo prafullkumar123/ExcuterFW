@@ -24,7 +24,7 @@ public class ExecutorFramework {
 			return "Not Match";
 		});
 		listOfTasks.add(()->{
-			if(CardNo.equalsIgnoreCase("6100400"))
+			if(CardNo.equalsIgnoreCase("561000"))
 				return "OK";
 			return "Not Match";
 		});
@@ -42,7 +42,6 @@ public class ExecutorFramework {
 			return null;
 		})
 		.forEach(System.out::println);
-		;
 
 	}
 }
